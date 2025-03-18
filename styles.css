@@ -1,2 +1,17 @@
+/* Styling the movie gallery */
+.gallery {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
 
-/* Your CSS Code here. */
+/* Image styling */
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin: 5px auto;
+    display: block;
+}
